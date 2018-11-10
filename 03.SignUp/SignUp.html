@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Sign Up</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/main_SignUp.js"></script>
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style_SignUp.css">
+</head>
+<body>
+	<nav class="navbar navbar-default head width1400" role="navigation">
+		<div class="container">
+			<!-- Brand and toggle get grouped for better mobile display -->
+
+			<div class="navbar-header ">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand color-xam" href="../01.Home/Home.html"><img src="images/13.png" alt=""></a>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse navbar-ex1-collapse khong-border">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="../02.Login/Login.html" class="color-trang">Login</a></li>
+					<li><a href="../03.SignUp/SignUp.html" class="color-trang">Sign up</a></li>
+				</ul>
+			</div><!-- /.navbar-collapse -->
+
+		</div>
+	</nav>
+
+	<nav class="bg-trang width1400">
+		<div class="container ">
+			<div class="collapse navbar-collapse navbar-ex1-collapse main-menu">
+				<ul class="nav navbar-nav navber-ct1">
+					<li><a href="../01.Home/Home.html">Home</a></li>
+					<li><a href="../06.Blog/Blog1/Blog1.html">Blog</a></li>
+					<li><a href="../04.Gallery/Gallery.html#">Gallery</a></li>
+					<li>
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" id="Pages">Pages<b class="caret"></b></a>
+						<ul class="dropdown-menu dropdown-menu-ct1">
+							<li class="boder-bottom"><a href="../01.Home/Home.html" class="blog-padding">Home</a></li>
+							<li class="boder-bottom menu-small1 Gallery-Blog">
+								<a href="../06.Blog/Blog1/Blog1.html" class="blog-padding">Blog <i class="fa fa-caret-right" aria-hidden="true"></i></a>
+								<ul class="dropdown-menu dropdown-menu-ct1 dropdown-menu-ct2">
+									<li><a href="#" class="blog-padding">Lập Trình</a></li>
+									<li><a href="#" class="blog-padding">Tâm Sự Eva</a></li>									
+								</ul>
+							</li>
+							<li class="boder-bottom menu-small1 Gallery-Blog" >
+								<a href="../04.Gallery/Gallery.html#" class="blog-padding">Gallery <i class="fa fa-caret-right" aria-hidden="true"></i></a>
+								<ul class="dropdown-menu dropdown-menu-ct1 dropdown-menu-ct2" >
+									<li><a href="#">2 Cols</a></li>
+									<li><a href="#">3 Cols</a></li>
+									<li><a href="#">4 Cols</a></li>
+								</ul>
+							</li>
+							<li class="boder-bottom"><a href="../05.ABOUT_US/About_us.html" class="blog-padding">About Us</a></li>
+							<li class="boder-bottom"><a href="#" class="blog-padding">Contacts</a></li>
+							<li class="boder-bottom"><a href="#" class="blog-padding" >Search Tickets</a></li>
+							<li class="boder-bottom"><a href="#" class="blog-padding">User Setting</a></li>
+							<li class="boder-bottom"><a href="#" class="blog-padding">Shortcode</a></li>
+							<li><a href="../404/404.html" class="blog-padding">404 Page</a></li>
+						</ul>
+					</li>
+					<li><a href="../05.ABOUT_US/About_us.html">About</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right navber-ct1">
+					<li>
+						<a href="#" class="dropdown-toggle " data-toggle="dropdown">USD<b class="caret"></b></a>
+						<ul class="dropdown-menu dropdown-menu-ct1">
+							<li><a href="#">VND</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#" class="dropdown-toggle " data-toggle="dropdown">EN<b class="caret"></b></a>
+						<ul class="dropdown-menu dropdown-menu-ct1">
+							<li><a href="#">VN</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div><!-- /.navbar-collapse -->
+		</div>
+	</nav>
+	
+	<!-- Contant1 -->
+	<div class="contant1">
+		<div class="container">
+			<div class="contant11 row">
+				<form>	
+					<div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 padding-col-0 contant12">
+						<legend><h2>Sign Up</h2></legend>
+						<div class="contant111">
+							
+								<div class="form-group margin-input-c111">
+									<p>Enter your E-mail*</p>
+									<input type="text" class="form-control" id="email-f" placeholder="E-mail">
+									<div id="err-email" class="err"></div>
+								</div>
+								<div class="form-group margin-input-c111">
+									<p>Enter your Name*</p>
+									<input type="text" class="form-control" id="name-f" placeholder="First name Last name">
+									<div id="err-name" class="err"></div>
+								</div>
+								<div class="form-group margin-input-c111">
+									<p>Enter your password*</p>
+									<input type="password" class="form-control" id="password-f" placeholder="password">
+									<div id="err-password" class="err"></div>
+								</div>
+								<div class="form-group margin-input-c111">
+									<p>Confirm your password*</p>
+									<input type="password" class="form-control" id="re-password" placeholder="Confirm password">
+									<div id="err-re-password" class="err"></div>
+								</div>
+								<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-col-0 margin-input-c111">
+									<p>
+										By signig up. You agree to <span>our terms</span>
+										of use and <span>privacry policy</span>
+									</p>
+								</div>
+								<div class="form-group margin-input-c111">
+									<button type="submit" class="btn btn-primary width100" id="nut-login">Login</button>
+								</div>
+						</div>
+						<div class="contant112">
+							<div class="form-group margin-input-c111">
+								<button type="submit" class="btn btn-primary width100">
+									<span>
+										<i class="fa fa-facebook-square float-left_line-height" aria-hidden="true" ></i>Login With Facebook
+									</span>
+								</button>
+							</div>
+							<div class="form-group margin-input-c111" >
+								<button type="submit" class="btn btn-primary width100" id="nut-LoginWithGoogle">
+									<span>
+										<i class="fa fa-google-plus-square float-left_line-height" aria-hidden="true" ></i>Login With Google+
+									</span>
+								</button>
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-7 col-lg-7 contant13">
+						<h1>REGISTRATION NOTE</h1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et unde incidunt corporis recusandae eos doloremque dolorem eum harum sunt porro repellendus omnis, quas soluta impedit totam magnam expedita, ipsam labore quasi saepe alias deserunt eius accusantium! Repudiandae repellat possimus, tempora ex mollitia eligendi praesentium ipsum, dignissimos dolorum nesciunt minima unde eaque nam odio beatae ipsam reprehenderit. Unde culpa voluptatibus debitis ea fugiat temporibus iusto ipsam, commodi expedita accusantium iure reprehenderit id fuga maiores modi illo blanditiis! Aliquam pariatur perferendis excepturi commodi vero quae, minus fugit autem! Magni aspernatur eius, at vitae animi unde nihil soluta, eum, porro vel similique! Obcaecati.</p>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	
+
+
+	<!-- Bottom -contant6 -->
+	<div class="contant6">
+		<div class="container contant61">
+			<div class="contant11 row">
+				<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 menu-contant6">
+					<h2>Menu</h2>
+					<p><a href="">Press Centre</a></p>
+					<p><a href="">Travel News</a></p>
+					<p><a href="">Privacy</a></p>
+					<p><a href="">Best Price Guarantee</a></p>
+					<p><a href="../05.ABOUT_US/About_us.html">About Us</a></p>
+					<p><a href="">Contacts</a></p>
+				</div>
+
+				<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 contact-contant6">
+					<h2>Contact Us</h2>
+					<p><i class="fa fa-phone-square" aria-hidden="true"></i> 0981643797</p>
+					<p><i class="fa fa-skype" aria-hidden="true"></i> Sandy Sandy</p>
+					<p><i class="fa fa-envelope" aria-hidden="true"></i> facebook.com</p>
+					<p><i class="fa fa-map-marker" aria-hidden="true"></i> Hai Bà Trưng - Hà Nội</p>
+				</div>
+
+				<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+					<h2>Blog Posts</h2>
+
+					<div class="img-contant6 row">
+						<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+							<img src="images/07.png" alt="" class="images-100 img-hieght-5em">
+						</div>
+						<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 padding-col-0">
+							<a href="../06.Blog/Blog1/Blog1.html">Blog Lập trình</a>
+						</div>
+					</div>
+					<div class="img-contant6 row">
+						<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+							<img src="images/03.png" alt="" class="images-100 img-hieght-5em">
+						</div>
+						<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 padding-col-0">
+							<a href="../06.Blog/Blog1/Blog1.html">Blog Lập trình</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+					<h2>Subscribe</h2>
+					<p>Be aware of news</p>
+					<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9 padding-col-0 " style="padding-right: 0.5em;">
+						<input type="search" name="" id="input" class="form-control" value="" required="required" title="" placeholder="Your e-mail"> 
+					</div>
+					<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 padding-col-0">
+						<div class="send">
+							<a href="">Send</a>
+						</div>
+					</div>
+					<br>
+					<h2>Follow Us</h2>
+					<i class="fa fa-facebook" aria-hidden="true"></i>
+					<i class="fa fa-twitter" aria-hidden="true"></i>
+					<i class="fa fa-google-plus" aria-hidden="true"></i>
+					<i class="fa fa-youtube-play" aria-hidden="true"></i>
+				</div>
+			</div>
+		</div>
+		<div class="container ">
+			<div class="contant11">
+				<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+					<img src="images/23.png" alt="" class="">
+				</div>
+				<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+					
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

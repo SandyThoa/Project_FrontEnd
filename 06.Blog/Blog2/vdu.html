@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>vidu</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- <link rel="stylesheet" href="css/st_blog2.css"> -->
+	<script type="text/javascript" src="js/main_blog1.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/js/bootstrap-datepicker.min.js"></script>
+	<style>
+		.thumbnail {
+		    padding:0px;
+		}
+		.panel {
+			position:relative;
+		}
+		.panel>.panel-heading:after,.panel>.panel-heading:before{
+			position:absolute;
+			top:11px;left:-16px;
+			right:100%;
+			width:0;
+			height:0;
+			display:block;
+			content:" ";
+			border-color:transparent;
+			border-style:solid solid outset;
+			pointer-events:none;
+		}
+		.panel>.panel-heading:after{
+			border-width:7px;
+			border-right-color:#f7f7f7;
+			margin-top:1px;
+			margin-left:2px;
+		}
+		.panel>.panel-heading:before{
+			border-right-color:#ddd;
+			border-width:8px;
+		}
+		.text-right {
+			text-align: right;
+			float: right;
+		}
+		.text-right b {
+			color: #428bca;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+					<img class="img-responsive user-photo" src="images/44.jpg">
+				</div><!-- /col-sm-6 -->
+				<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<strong>John Doe</strong> 
+							<span class="text-muted text-right" >2 days ago <b>Reply</b></span>
+
+						</div>
+						<div class="panel-body">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste eum impedit fugit, beatae velit ipsam pariatur deleniti inventore consequuntur quidem, tenetur quaerat iure amet in!
+						</div><!-- /panel-body -->
+					</div><!-- /panel panel-default -->
+				</div>
+			</div>
+		</div><!-- /row -->
+	</div><!-- /container -->
+</body>
+</html>

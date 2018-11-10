@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ex</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<script type="text/javascript" src="01.Home/js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="01.Home/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="01.Home/css/font-awesome.min.css">
+	<link rel="stylesheet" href="01.Home/css/bootstrap.min.css">
+	<link rel="stylesheet" href="EXX.css">
+	<style>
+		html,
+				body {
+				  height: 100%;
+				}
+				.carousel {
+				  width: 100%;
+				  background-color: #000;
+				  height: 100%;
+				}
+				.carousel-fade .carousel-inner .item {
+				  -webkit-transition-property: opacity;
+				  transition-property: opacity;
+				}
+				.carousel-fade .carousel-inner .item,
+				.carousel-fade .carousel-inner .active.left,
+				.carousel-fade .carousel-inner .active.right {
+				  opacity: 0;
+				}
+				.carousel-fade .carousel-inner .active,
+				.carousel-fade .carousel-inner .next.left,
+				.carousel-fade .carousel-inner .prev.right {
+				  opacity: 1;
+				}
+				.carousel-fade .carousel-inner .next,
+				.carousel-fade .carousel-inner .prev,
+				.carousel-fade .carousel-inner .active.left,
+				.carousel-fade .carousel-inner .active.right {
+				  left: 0;
+				  -webkit-transform: translate3d(0, 0, 0);
+				  transform: translate3d(0, 0, 0);
+				}
+				.carousel-fade .carousel-control {
+				  z-index: 2;
+				  display: flex;
+				  justify-content: center;
+				  align-items: center;
+				}
+				.carousel-fade .carousel-control .glyphicon {
+				  font-size: 6rem;
+				}
+				.carousel,
+				.carousel-inner,
+				.carousel-inner .item {
+				  height: 100%;
+				}
+				.stopfade {
+				  opacity: 0.5;
+				}
+				.slide-content {
+				  color: #fff;
+				  display: flex;
+				  flex-direction: column;
+				  justify-content: center;
+				  align-items: center;
+				  min-height: 100%;
+				}
+				.slide-content video {
+				  position: absolute;
+				  top: 50%;
+				  left: 50%;
+				  min-width: 100%;
+				  min-height: 100%;
+				  width: auto;
+				  height: auto;
+				  z-index: 0;
+				  -webkit-transform: translateX(-50%) translateY(-50%);
+				  transform: translateX(-50%) translateY(-50%);
+				  -webkit-transition: 1s opacity;
+				  transition: 1s opacity;
+				}
+				.slide-content video::-webkit-media-controls-start-playback-button {
+				  display: none !important;
+				  -webkit-appearance: none;
+				}
+				.door {
+				  font-family: Revista-Black;
+				  display: flex;
+				  justify-content: center;
+				  flex-direction: column;
+				  align-items: center;
+				  height: 100%;
+				  width: 100%;
+				  z-index: 1;
+				}
+				.door .title {
+				  font-size: 14rem;
+				  text-transform: uppercase;
+				  letter-spacing: 0.3rem;
+				  line-height: 13rem;
+				}
+				.door .description {
+				  border-top: 1px solid #fff;
+				  margin-top: 15px;
+				  font-size: 4rem;
+				}
+
+	</style>
+</head>
+<body>
+	<div id="carousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="false">
+	  <ol class="carousel-indicators">
+	      <li data-target="#carousel" data-slide-to="0" class="active"></li>
+	      <li data-target="#carousel" data-slide-to="1"></li>
+	      <li data-target="#carousel" data-slide-to="2"></li>
+	      <li data-target="#carousel" data-slide-to="3"></li>
+	  </ol>
+	  
+	  <!-- Carousel items -->
+	  <div class="carousel-inner">
+	    <div class="item active">
+	      <div class="slide-content">
+	        <video poster="http://192.241.175.50/videos/london.jpg" webkit-playsinline id="bgvid" loop>
+	          <source src="http://192.241.175.50/videos/london.webm" type="video/webm">
+	          <source src="http://192.241.175.50/videos/london.mp4" type="video/mp4">
+	        </video>
+	        <div class="slide-overlay door">
+	          <div class='title'>BLOG</div>
+	          <div class="description"> 
+	          	<a href=""><button>Go to blog</button></a>
+	          </div>
+	        </div>
+	      </div>
+	    </div>
+	    <div class="item">
+	      <div class="slide-content">
+	        <video poster="http://192.241.175.50/videos/boston.jpg" webkit-playsinline id="bgvid" loop>
+	          <source src="http://192.241.175.50/videos/boston.webm" type="video/webm">
+	          <source src="http://192.241.175.50/videos/boston.mp4" type="video/mp4">
+	        </video>
+	        <div class="slide-overlay door">
+	          <div class='title'>GALLERY </div>
+	          <div class="description"> 
+	          	<a href=""><button>Go to Gallery</button></a>
+	          </div>
+	         
+	        </div>
+	      </div>
+	    </div>
+	    <div class="item">
+	      <div class="slide-content">
+	        <video poster="http://192.241.175.50/videos/split.jpg" webkit-playsinline id="bgvid" loop>
+	          <source src="http://192.241.175.50/videos/split.webm" type="video/webm">
+	          <source src="http://192.241.175.50/videos/split.mp4" type="video/mp4">
+	        </video>
+	        <div class="slide-overlay door">
+	          <div class='title'>LOGIN</div>
+	          <div class="description">
+	          	 <a href="file:///E:/Font-End/BAI_TAP_LON_FRONT_END/02.Login/Login.html"><button>Go to login</button></a>
+	          </div>
+           		
+	        </div>
+	      </div>
+	    </div>
+	    <div class="item">
+	      <div class="slide-content">
+	        <video poster="http://192.241.175.50/videos/samo.jpg" webkit-playsinline id="bgvid" loop>
+	          <source src="http://192.241.175.50/videos/samo.webm" type="video/webm">
+	          <source src="http://192.241.175.50/videos/samo.mp4" type="video/mp4">
+	        </video>
+	        <div class="slide-overlay door">
+	          <div class='title'>SIGN UP</div>
+	          <div class="description">
+	          	<a href="file:///E:/Font-End/BAI_TAP_LON_FRONT_END/03.SignUp/SignUp.html"><button>Go to sign up</button></a>
+	          </div>
+	         
+	        </div>
+	      </div>
+	    </div>
+	  </div>
+	  
+	  <a class="carousel-control left" href="#carousel" data-slide="prev">
+	   <span class="glyphicon glyphicon-chevron-left"></span>
+	  </a>
+	  
+	  <a class="carousel-control right" href="#carousel" data-slide="next">
+	   <span class="glyphicon glyphicon-chevron-right"></span>
+	  </a>
+	  
+	</div>
+	<script>
+	    // If not iPhone, play first video and setup event handlers for  carousel rotations
+	// iPhone will not play videos inline, and will take control of the browser
+
+	if(!/iPhone/i.test(navigator.userAgent)) {
+	    $('.active > div > video').get(0).play();
+
+	    $('#carousel').bind('slide.bs.carousel', function(e) {
+	      $(e.relatedTarget).find('video').get(0).play();
+	    });
+
+	    $('#carousel').bind('slid.bs.carousel', function(e) {
+	      $('video').not('.active > div > video').each(function() {
+	        $(this).get(0).pause();
+	      });
+	    });
+	  }
+	</script>
+</body>
+</html>

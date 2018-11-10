@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Home</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/styleHome.css">
+	<script type="text/javascript" src="js/main_home.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/js/bootstrap-datepicker.min.js"></script>
+</head>
+<body>
+
+	<div id="goTop">
+		<i class="fa fa-arrow-up" aria-hidden="true" id="nut-goTop"></i>
+	</div>
+
+	<nav class="navbar navbar-default head width1400" role="navigation">
+		<div class="container">
+			<!-- Brand and toggle get grouped for better mobile display -->
+
+			<div class="navbar-header ">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand color-xam" href="Home.html"><img src="images/13.png" alt="" ></a>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse navbar-ex1-collapse khong-border">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="../02.Login/Login.html" class="color-trang">Login</a></li>
+					<li><a href="../03.SignUp/SignUp.html" class="color-trang">Sign up</a></li>
+				</ul>
+			</div><!-- /.navbar-collapse -->
+
+		</div>
+	</nav>
+
+	<nav class="bg-trang width1400">
+		<div class="container ">
+			<div class="collapse navbar-collapse navbar-ex1-collapse main-menu">
+				<ul class="nav navbar-nav navber-ct1">
+					<li><a href="../01.Home/Home.html">Home</a></li>
+					<li><a href="../06.Blog/Blog1/Blog1.html">Blog</a></li>
+					<li><a href="../04.Gallery/Gallery.html">Gallery</a></li>
+					<li>
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" id="Pages">Pages<b class="caret"></b></a>
+						<ul class="dropdown-menu dropdown-menu-ct1">
+							<li class="boder-bottom"><a href="../01.Home/Home.html" class="blog-padding">Home</a></li>
+							<li class="boder-bottom menu-small1 Gallery-Blog">
+								<a href="../06.Blog/Blog1/Blog1.html" class="blog-padding">Blog <i class="fa fa-caret-right" aria-hidden="true"></i></a>
+								<ul class="dropdown-menu dropdown-menu-ct1 dropdown-menu-ct2">
+									<li><a href="#" class="blog-padding">Blog 1</a></li>
+									<li><a href="#" class="blog-padding">Blog 2</a></li>									
+								</ul>
+							</li>
+							<li class="boder-bottom menu-small1 Gallery-Blog" >
+								<a href="../04.Gallery/Gallery.html"" class="blog-padding">Gallery <i class="fa fa-caret-right" aria-hidden="true"></i></a>
+								<ul class="dropdown-menu dropdown-menu-ct1 dropdown-menu-ct2" >
+									<li><a href="#">2 Cols</a></li>
+									<li><a href="#">3 Cols</a></li>
+									<li><a href="#">4 Cols</a></li>
+								</ul>
+							</li>
+							<li class="boder-bottom"><a href="#" class="blog-padding">About Us</a></li>
+							<li class="boder-bottom"><a href="#" class="blog-padding">Contacts</a></li>
+							<li class="boder-bottom"><a href="#" class="blog-padding" style="padding-left: 0.4em !important;">Search Tickets</a></li>
+							<li class="boder-bottom"><a href="#" class="blog-padding">User Setting</a></li>
+							<li class="boder-bottom"><a href="#" class="blog-padding">Shortcode</a></li>
+							<li><a href="../404/404.html" class="blog-padding">404 Page</a></li>
+						</ul>
+					</li>
+					<li><a href="../05.ABOUT_US/About_us.html">About</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right navber-ct1">
+					<li>
+						<a href="#" class="dropdown-toggle " data-toggle="dropdown">USD<b class="caret"></b></a>
+						<ul class="dropdown-menu dropdown-menu-ct1">
+							<li><a href="#">VND</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#" class="dropdown-toggle " data-toggle="dropdown">EN<b class="caret"></b></a>
+						<ul class="dropdown-menu dropdown-menu-ct1">
+							<li><a href="#">VN</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div><!-- /.navbar-collapse -->
+		</div>
+	</nav>
+
+    <!-- comtant 0 -->
+	<div id="carousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="false">
+	  	<ol class="carousel-indicators">
+	      	<li data-target="#carousel" data-slide-to="0" class="active"></li>
+	      	<li data-target="#carousel" data-slide-to="1"></li>
+	      	<li data-target="#carousel" data-slide-to="2"></li>
+	      	<li data-target="#carousel" data-slide-to="3"></li>
+	      	<li data-target="#carousel" data-slide-to="4"></li>
+	  	</ol>
+	  <!-- Carousel items -->
+	  	<div class="carousel-inner">
+	    	<div class="item">
+	      	<div class="slide-content">
+	        	<video poster="http://192.241.175.50/videos/samo.jpg" webkit-playsinline id="bgvid" loop>
+		          <source src="WeDontTalkAnymore.mp4">
+		          <source src="WeDontTalkAnymore.mp4">
+		        </video>
+	        	<div class="slide-overlay door">
+	          	<div class='title'>BLOG</div>
+	          	<div class="description"> 
+	          	</div>
+	          	<a href="/06.Blog/Blog1/Blog1.html" ><button class="button-contant0">Go To Blog</button></a>
+	        	</div>
+	      	</div>
+	    	</div>
+		    <div class="item active">
+		      <div class="slide-content">
+		       <video poster="http://192.241.175.50/videos/samo.jpg" webkit-playsinline id="bgvid" loop>
+		          <source src="https://redirector.googlevideo.com/videoplayback?mime=video%2Fmp4&id=o-ANDiZNa_XArZbhhkB3CT08VEm0clv7_2yK0FXTRVrwf3&pl=23&mm=31%2C29&mn=sn-8qj-i5oe%2Csn-i3beln7s&ipbits=0&sparams=dur%2Cei%2Cid%2Cip%2Cipbits%2Citag%2Clmt%2Cmime%2Cmm%2Cmn%2Cms%2Cmv%2Cpl%2Cratebypass%2Crequiressl%2Csource%2Cexpire&dur=281.565&mt=1528380457&ip=103.56.158.189&requiressl=yes&ms=au%2Crdu&itag=22&mv=u&ratebypass=yes&ei=QD4ZW7jWBZXdqQG0hrawDA&c=WEB&source=youtube&expire=1528402592&key=yt6&lmt=1523418884334067&fvip=5&signature=5F9A9907F5CEFF524FB1829AFAE18571EA846691.819E015FFA66B37F93E04C7C748C2A33BD87513F">
+		          <source src="https://redirector.googlevideo.com/videoplayback?mime=video%2Fmp4&id=o-ANDiZNa_XArZbhhkB3CT08VEm0clv7_2yK0FXTRVrwf3&pl=23&mm=31%2C29&mn=sn-8qj-i5oe%2Csn-i3beln7s&ipbits=0&sparams=dur%2Cei%2Cid%2Cip%2Cipbits%2Citag%2Clmt%2Cmime%2Cmm%2Cmn%2Cms%2Cmv%2Cpl%2Cratebypass%2Crequiressl%2Csource%2Cexpire&dur=281.565&mt=1528380457&ip=103.56.158.189&requiressl=yes&ms=au%2Crdu&itag=22&mv=u&ratebypass=yes&ei=QD4ZW7jWBZXdqQG0hrawDA&c=WEB&source=youtube&expire=1528402592&key=yt6&lmt=1523418884334067&fvip=5&signature=5F9A9907F5CEFF524FB1829AFAE18571EA846691.819E015FFA66B37F93E04C7C748C2A33BD87513F">
+		        </video>
+		        <div class="slide-overlay door">
+		          <div class='title'>GALLERY </div>
+		          <div class="description"> 
+		          </div>
+		          <a href="../04.Gallery/Gallery.html"><button class="button-contant0">Go To Gallery</button></a>
+		         
+		        </div>
+		      </div>
+		    </div>
+		    <div class="item">
+		      <div class="slide-content">
+		        <video poster="http://192.241.175.50/videos/samo.jpg" webkit-playsinline id="bgvid" loop>
+		          <source src="WeDontTalkAnymore.mp4">
+		          <source src="WeDontTalkAnymore.mp4">
+		        </video>
+		        <div class="slide-overlay door">
+		          <div class='title'>LOGIN</div>
+		          <div class="description">
+		          </div>
+	           	  <a href="../02.Login/Login.html"><button class="button-contant0">Go To Login</button></a>
+		        </div>
+		      </div>
+		    </div>
+		    <div class="item">
+		      <div class="slide-content">
+		       <video poster="http://192.241.175.50/videos/samo.jpg" webkit-playsinline id="bgvid" loop>
+		          <source src="WeDontTalkAnymore.mp4">
+		          <source src="WeDontTalkAnymore.mp4">
+		        </video>
+		        <div class="slide-overlay door">
+		          <div class='title'>SIGN UP</div>
+		          <div class="description">
+		          </div>
+		          <a href="../03.SignUp/SignUp.html"><button class="button-contant0">Go to sign up</button></a>
+		        </div>
+		      </div>
+		    </div>
+		    <div class="item">
+		      <div class="slide-content">
+		        <video poster="http://192.241.175.50/videos/samo.jpg" webkit-playsinline id="bgvid" loop>
+		          <source src="WeDontTalkAnymore.mp4">
+		          <source src="WeDontTalkAnymore.mp4">
+		        </video>
+		        <div class="slide-overlay door">
+		          <div class='title'>404</div>
+		          <div class="description">
+		          </div>
+		          <a href="../404/404.html"><button class="button-contant0">Go to 404 </button></a>
+		        </div>
+		      </div>
+		    </div>
+	  </div>
+	  
+	  <a class="carousel-control left" href="#carousel" data-slide="prev">
+	   <span class="glyphicon glyphicon-chevron-left"></span>
+	  </a>
+	  
+	  <a class="carousel-control right" href="#carousel" data-slide="next">
+	   <span class="glyphicon glyphicon-chevron-right"></span>
+	  </a>
+	  
+	</div>
+	
+	
+	<div class="padding-col-0" id="list-scroll-down">
+		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-col-0">
+			<div id="Scroll-down2">
+				<i class="fa fa-caret-square-o-right Scroll-down" aria-hidden="true" "></i>
+			</div>
+			
+			<div id="Scroll-down3">
+				<i class="fa fa-caret-square-o-left Scroll-down" aria-hidden="true" ></i>
+			</div>
+			<ul class="list-group"  id="list-items">
+				<li class="list-group-item padding-col-0" id="Scroll-down1">Top Travel Destinations</li>
+				<li class="list-group-item padding-col-0" id="Scroll-down12">Latest Posts</li>
+				<li class="list-group-item padding-col-0" id="Scroll-down13">E-Tickets Advantages</li>
+				<li class="list-group-item padding-col-0" id="Scroll-down14">Testimonials</li>
+			</ul>
+		</div>
+	</div>
+	
+
+	<!-- Contant 1  -->
+	<div class="contant1">
+		<div class="container">
+			<div class="row">
+				<div class="contant11">
+					<div class="col-xs-12 col-sm-5 col-md-6 col-lg-6 contant111 row" id="contant111-id">
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 margin-bottom-2em">
+							<h1 class="margin-0" style="margin: 0;" "><b>Welcome To</b></h1>
+							<h1 class="margin-0" style="margin: 0;"><b>Back </b>Your <b> Train</b></h1>
+						</div>
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero nobis minus voluptate eaque iure atque! Saepe adipisci doloremque deserunt illum.</p>
+						</div>
+						
+					</div>
+					<div class="col-xs-12 col-sm-7 col-md-6 col-lg-6 contant112">
+						<form>
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<p>Travelling Route</p>
+							</div>
+							<div class="col-xs-10 col-sm-5 col-md-5 col-lg-5 ">
+								 <div class="form-group form-group1">
+								    <input type="text" class="form-control" placeholder="From" id="From1">
+								  </div>
+							</div>
+							<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 Trao-Lo-Trinh">
+								<div>
+									<i class="fa fa-refresh " id="trao-lo-trinh" aria-hidden="true"></i>
+								</div>
+							</div> 
+							<div class="col-xs-10 col-sm-5 col-md-5 col-lg-5">
+								 <div class="form-group form-group1">
+								    <input type="text" class="form-control" placeholder="To" id="To1">
+								  </div>
+							</div>
+
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<p>Travelling Data</p>
+							</div>
+							
+							<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+								 <div class="form-group form-group1">
+								    <div class="input-group date" id="datetimepicker2">
+					                    <input type='text' class="form-control" placeholder="MM/YY/YYYY" />
+					                    <span class="input-group-addon">
+					                        <span class="glyphicon glyphicon-calendar"></span>
+					                    </span>
+					                </div>
+								  </div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+								 <div class="form-group form-group1">
+								    <div class="input-group date" id="datetimepicker1">
+					                    <input type='text' class="form-control" placeholder="One Day" />
+					                    <span class="input-group-addon">
+					                        <span class="glyphicon glyphicon-calendar"></span>
+					                    </span>
+					                </div>
+								  </div>
+							</div>
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<p>Travelling Persons</p>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+								 <div class="form-group form-group1">
+								    <div class="form-group">
+							    		<select name="" id="input" class="form-control" required="required">
+							    			<option value="" class="font-size-1em">1 Adult</option>
+							    			<option value="" class="font-size-1em">2 Adult</option>
+							    			<option value="" class="font-size-1emm">3 Adult</option>
+							    		</select>
+								    </div>
+								  </div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+								<div class="form-group form-group1">
+								    <div class="form-group">
+							    		<select name="" id="input" class="form-control" required="required">
+							    			<option value="" class="font-size-1em">0 Kids</option>
+							    			<option value="" class="font-size-1em">1 Kids</option>
+							    			<option value="" class="font-size-1em">2 kids</option>
+							    			<option value="" class="font-size-1em">3 kids</option>
+							    			<option value="" class="font-size-1em">4 kids</option>
+							    		</select>
+								    </div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="form-group form-group1">
+								    <div class="form-group">
+								    	<input type="submit" name="" value="SEARCH TICKETS" class="nut-search-tickets">
+								    </div>
+								</div>
+							</div>
+							
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Contant2 -->
+	<div class="contant2" id="div2">
+		<div class="container">
+			<div class="contant11">
+				<div class="contant21 row">
+					<div class="col-xs-12 col-sm-10 col-md-10 col-lg-10">
+						<h1>Top Travel Destinations</h1>
+					</div>
+					<div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+						<h3><a href="" class="BrowseAll">BrowseAll</a></h3>
+					</div>
+				</div>
+
+				<div class="contant22 row">
+
+					<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 box-img-cnt22">
+						<div id="carousel-id" class="carousel slide" data-ride="carousel">
+							<ol class="carousel-indicators">
+								<li data-target="#carousel-id" data-slide-to="0" class="active"></li>
+								<li data-target="#carousel-id" data-slide-to="1" class=""></li>
+							</ol>
+							<div class="carousel-inner">
+								<div class="item active">
+									<img src="images/01.png" alt="" class="images-100 img-max-hieght-20em">
+								</div>
+								<div class="item ">
+									<img src="images/03.png" alt="" class="images-100 img-max-hieght-20em">
+								</div>
+							</div>
+						</div>
+						<div class="caption caption-st1 row">
+							<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+								<a href=""><h4>New York</h4></a>
+								<p>Lorem ipsum dolor.</p>
+							</div>
+							<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 box-img-r-contant22">
+								<a href=""><h4>Los Angeles</h4></a>
+								<p>Lorem ipsum dolor.</p>
+							</div>
+
+						</div>
+						<div class="caption caption-st1 row">
+							<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+								<p>Every Day</p>
+							</div>
+							<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 box-img-r-contant22">
+								<span>From <b>$230</b></span>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 box-img-cnt22">
+						<div id="carousel-id1" class="carousel slide" data-ride="carousel">
+							<ol class="carousel-indicators">
+								<li data-target="#carousel-id1" data-slide-to="0" class="active"></li>
+								<li data-target="#carousel-id1" data-slide-to="1" class=""></li>
+							</ol>
+							<div class="carousel-inner">
+								<div class="item active">
+									<img src="images/03.png" alt="" class="images-100 img-max-hieght-20em">
+								</div>
+								<div class="item ">
+									<img src="images/02.png" alt="" class="images-100 img-max-hieght-20em">
+								</div>
+							</div>
+						</div>
+						<div class="caption caption-st1 row">
+							<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+								<a href=""><h4>Los Angeles</h4></a>
+								<p>Lorem ipsum dolor.</p>
+							</div>
+							<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 box-img-r-contant22">
+								<a href=""><h4>Washington</h4></a>
+								<p>Lorem ipsum dolor.</p>
+							</div>
+						</div>
+						<div class="caption caption-st1 row">
+							<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+								<p>Every Day</p>
+							</div>
+							<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 box-img-r-contant22">
+								<span>From <b>$248</b></span>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 box-img-cnt22">
+						<div id="carousel-id5" class="carousel slide" data-ride="carousel">
+							<ol class="carousel-indicators">
+								<li data-target="#carousel-id5" data-slide-to="0" class="active"></li>
+								<li data-target="#carousel-id5" data-slide-to="1" class=""></li>
+							</ol>
+							<div class="carousel-inner">
+								<div class="item active">
+									<img src="images/02.png" alt="" class="images-100 img-max-hieght-20em">
+								</div>
+								<div class="item ">
+									<img src="images/01.png" alt="" class="images-100 img-max-hieght-20em">
+								</div>
+							</div>
+						</div>
+						<div class="caption caption-st1 row">
+							<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+								<a href=""><h4>Washington</h4></a>
+								<p>Lorem ipsum dolor.</p>
+							</div>
+							<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 box-img-r-contant22">
+								<a href=""><h4>Los New York</h4></a>
+								<p>Lorem ipsum dolor.</p>
+							</div>
+						</div>
+						<div class="caption caption-st1 row">
+							<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+								<p>Every Day</p>
+							</div>
+							<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 box-img-r-contant22">
+								<span>From <b>$258</b></span>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 box-img-cnt22">
+						<div id="carousel-id2" class="carousel slide" data-ride="carousel">
+							<ol class="carousel-indicators">
+								<li data-target="#carousel-id2" data-slide-to="0" class="active"></li>
+								<li data-target="#carousel-id2" data-slide-to="1" class=""></li>
+							</ol>
+							<div class="carousel-inner">
+								<div class="item active">
+									<img src="images/04.png" alt="" class="images-100 img-max-hieght-20em">
+								</div>
+								<div class="item ">
+									<img src="images/05.png" alt="" class="images-100 img-max-hieght-20em">
+								</div>
+							</div>
+						</div>
+						<div class="caption caption-st1 row">
+							<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+								<a href=""><h4>San Diego</h4></a>
+								<p>Lorem ipsum dolor.</p>
+							</div>
+							<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 box-img-r-contant22">
+								<a href=""><h4>Chicago</h4></a>
+								<p>Lorem ipsum dolor.</p>
+							</div>
+						</div>
+						<div class="caption caption-st1 row">
+							<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+								<p>Every Day</p>
+							</div>
+							<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 box-img-r-contant22">
+								<span>From <b>$230</b></span>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 box-img-cnt22">
+						<div id="carousel-id3" class="carousel slide" data-ride="carousel">
+							<ol class="carousel-indicators">
+								<li data-target="#carousel-id3" data-slide-to="0" class="active"></li>
+								<li data-target="#carousel-id3" data-slide-to="1" class=""></li>
+							</ol>
+							<div class="carousel-inner">
+								<div class="item active">
+									<img src="images/05.png" alt="" class="images-100 img-max-hieght-20em">
+								</div>
+								<div class="item ">
+									<img src="images/06.png" alt="" class="images-100 img-max-hieght-20em">
+								</div>
+							</div>
+						</div>
+						<div class="caption caption-st1 row">
+							<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+								<a href=""><h4>Chicago</h4></a>
+								<p>Lorem ipsum dolor.</p>
+							</div>
+							<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 box-img-r-contant22">
+								<a href=""><h4>Philadelphia</h4></a>
+								<p>Lorem ipsum dolor.</p>
+							</div>
+						</div>
+						<div class="caption caption-st1 row">
+							<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+								<p>Every Day</p>
+							</div>
+							<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 box-img-r-contant22">
+								<span>From <b>$248</b></span>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 box-img-cnt22">
+						<div id="carousel-id4" class="carousel slide" data-ride="carousel">
+							<ol class="carousel-indicators">
+								<li data-target="#carousel-id4" data-slide-to="0" class="active"></li>
+								<li data-target="#carousel-id4" data-slide-to="1" class=""></li>
+							</ol>
+							<div class="carousel-inner">
+								<div class="item active">
+									<img src="images/06.png" alt="" class="images-100 img-max-hieght-20em">
+								</div>
+								<div class="item ">
+									<img src="images/04.png" alt="" class="images-100 img-max-hieght-20em">
+								</div>
+							</div>
+						</div>
+						<div class="caption caption-st1 row">
+							<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+								<a href=""><h4>Philadelphia</h4></a>
+								<p>Lorem ipsum dolor.</p>
+							</div>
+							<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 box-img-r-contant22">
+								<a href=""><h4>San Diego</h4></a>
+								<p>Lorem ipsum dolor.</p>
+							</div>
+						</div>
+						<div class="caption caption-st1 row">
+							<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+								<p>Every Day</p>
+							</div>
+							<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 box-img-r-contant22">
+								<span>From <b>$258</b></span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- ConTant 3 -->
+    <div class="contant3">
+		<div class="container">
+			<div class="contant11">
+				<div class="contant31 row">
+					<div class="col-xs-12 col-sm-10 col-md-10 col-lg-10">
+						<h1>Latest Posts</h1>
+					</div>
+					<div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+						<h3><a class="BrowseAll">Older Posts </a></h3>
+					</div>
+				</div>
+
+				<div class="contant32 row">
+					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 contant321">
+						<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 padding-col-0 img-hover">
+							<img src="images/12.png" alt="" class="images-100 img-max-hieght-15em" ">
+							<div class="images-100 img-max-hieght-15em cover-img-train-new" >
+								<h3><a href="">Read More</a></h3>
+							</div>
+						</div>
+
+						<div class="col-xs-12 col-sm-12  col-md-6 col-lg-6 padding-col-0 NewTrainDestiation">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 NewTrain">
+								<h4><b>New train destiation</b></h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus impedit, excepturi molestiae assumenda harum tenetur?</p>
+							</div>
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 Admin-DayAgo-w">
+								<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 Admin-w">
+									<i>By </i><b> Admin</b>
+								</div>
+								<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 DayAgo-w">
+									<i>1 day ago</i>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 contant321">
+						<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 padding-col-0 img-hover">
+							<img src="images/07.png" alt="" class="images-100 img-max-hieght-15em ">
+							<div class="images-100 img-max-hieght-15em cover-img-train-new"  >
+								<h3><a href="">Read More</a></h3>
+							</div>
+						</div>
+
+						<div class="col-xs-12 col-sm-12  col-md-6 col-lg-6 padding-col-0 NewTrainDestiation">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 NewTrain">
+								<h4><b>New train destiation</b></h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus impedit, excepturi molestiae assumenda harum tenetur?</p>
+							</div>
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 Admin-DayAgo-w">
+								<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 Admin-w">
+									<i>By </i><b> Admin</b>
+								</div>
+								<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 DayAgo-w">
+									<i>1 day ago</i>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 contant321">
+						<div class="col-xs-12 col-sm-12  col-md-6 col-lg-6 padding-col-0 NewTrainDestiation">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 NewTrain">
+								<h4><b>New train destiation</b></h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus impedit, excepturi molestiae assumenda harum tenetur?</p>
+							</div>
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 Admin-DayAgo-w">
+								<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 Admin-w">
+									<i>By </i><b> Admin</b>
+								</div>
+								<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 DayAgo-w">
+									<i>1 day ago</i>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 padding-col-0 img-hover">
+							<img src="images/11.png" alt="" class="images-100 img-max-hieght-15em ">
+							<div class="images-100 img-max-hieght-15em cover-img-train-new" >
+								<h3><a href="">Read More</a></h3>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-xs-12 col-sm-6` col-md-6 col-lg-6 contant321">
+						<div class="col-xs-12 col-sm-12  col-md-6 col-lg-6 padding-col-0 NewTrainDestiation">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 NewTrain">
+								<h4><b>New train destiation</b></h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus impedit, excepturi molestiae assumenda harum tenetur?</p>
+							</div>
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 Admin-DayAgo-w">
+								<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 Admin-w">
+									<i>By </i><b> Admin</b>
+								</div>
+								<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 DayAgo-w">
+									<i>1 day ago</i>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 padding-col-0 img-hover">
+							<img src="images/10.png" alt="" class="images-100 img-max-hieght-15em ">
+							<div class="images-100 img-max-hieght-15em cover-img-train-new">
+								<h3><a href="">Read More</a></h3>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- ConTant4 -->
+	<div class="contant4">
+		<div class="contant41 ">
+			<div class="container">
+				<div class="contant11">
+					<div class="contant411 row padding-col-0">
+						<div class="col-xs-12 col-sm-10 col-md-10 col-lg-10">
+							<h1>E-TICKETS ADVANTAGES</h1>
+						</div>
+						<div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+							<h3><a href="">Learn More</a>	</h3>
+						</div>
+					</div>
+
+					<div class="contant412">
+						<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 contant4121">
+							<div class="contant41211">
+								<div class="Tick-Advan">
+									<img src="images/14.png" alt="" class="images-99-ct1">
+								</div>
+							</div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, quia!</p>
+						</div>
+
+						<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 contant4121">
+							<div class="contant41211">
+								<div class="Tick-Advan">
+									<img src="images/15.png" alt="" class="images-99-ct1">
+								</div>
+							</div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, quia!</p>
+						</div>
+
+						<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 contant4121">
+							<div class="contant41211">
+								<div class="Tick-Advan">
+									<img src="images/16.png" alt="" class="images-99-ct1">
+								</div>
+							</div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, quia!</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Contant5 -->
+	<div class="contant5 ">
+		<div class="contant51">
+			<div class="container">
+				<div class="contant511 row">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+						<h1>Testimonials</h1>
+					</div>
+				</div>
+
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="banner">
+				        <section id="dg-container" class="dg-container">
+				            <div class="dg-wrapper row">
+				                <a href="#">
+				                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 khung-name">
+				                    	<img src="images/17.jpg" alt="" class="img-max-hieght-18em">
+				                    </div>
+				                </a>
+				                <a href="#">
+				                	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				                		 <img src="images/18.jpg" class="img-max-hieght-18em">
+				                	</div>
+				                </a>
+				                <a href="#">
+				                	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				                		 <img src="images/20.jpg" class="img-max-hieght-18em">
+				                	</div>
+				                </a>
+				                <a href="#">
+				                	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				                		<img src="images/21.jpg" class="img-max-hieght-18em">
+				                	</div>
+				                </a>
+				                <a href="#" >
+				                	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				                		<img src="images/19.jpg" class="img-max-hieght-18em">
+				                	</div>
+				                </a>
+				            </div>
+				            <ol class="button" id="lightButton">
+				                <li index="0">
+				                <li index="1">
+				                <li index="2">
+				                <li index="3">
+				                <li index="4">
+				            </ol>
+				            <nav>
+				                <span class="dg-prev"></span>
+				                <span class="dg-next"></span>
+				            </nav>
+				        </section>
+				    </div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- Bottom - contant6 -->
+	<div class="contant6">
+		<div class="container contant61">
+			<div class="contant11 row">
+				<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 menu-contant6">
+					<h2>Menu</h2>
+					<p><a href="">Press Centre</a></p>
+					<p><a href="">Travel News</a></p>
+					<p><a href="">Privacy</a></p>
+					<p><a href="">Best Price Guarantee</a></p>
+					<p><a href="">About Us</a></p>
+					<p><a href="">Contacts</a></p>
+				</div>
+
+				<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 contact-contant6">
+					<h2>Contact Us</h2>
+					<p><i class="fa fa-phone-square" aria-hidden="true"></i>0981643797</p>
+					<p><i class="fa fa-skype" aria-hidden="true"></i>Sandy Sandy</p>
+					<p><i class="fa fa-envelope" aria-hidden="true"></i> facebook.com</p>
+					<p><i class="fa fa-map-marker" aria-hidden="true"></i> Hai Bà Trưng- Hà Nội</p>
+				</div>
+
+				<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+					<h2>Blog Posts</h2>
+
+					<div class="img-contant6 row">
+						<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+							<img src="images/07.png" alt="" class="images-100">
+						</div>
+						<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 padding-col-0">
+							<a href="">Blog Lập trình</a>
+						</div>
+					</div>
+					<div class="img-contant6 row">
+						<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+							<img src="images/03.png" alt="" class="images-100">
+						</div>
+						<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 padding-col-0">
+							<a href="">Blog Lập trình</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+					<h2>Subscribe</h2>
+					<p>Be aware of news</p>
+					<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9 padding-col-0 " style="padding-right: 0.5em;">
+						<input type="search" name="" id="input" class="form-control" value="" required="required" title="" placeholder="Your e-mail"> 
+					</div>
+					<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 padding-col-0">
+						<div class="send">
+							<a href="https://www.google.com.vn/">Send</a>
+						</div>
+					</div>
+					<br>
+					<h2>Follow Us</h2>
+					<i class="fa fa-facebook" aria-hidden="true"></i>
+					<i class="fa fa-twitter" aria-hidden="true"></i>
+					<i class="fa fa-google-plus" aria-hidden="true"></i>
+					<i class="fa fa-youtube-play" aria-hidden="true"></i>
+				</div>
+			</div>
+		</div>
+		<div class="container ">
+			<div class="contant11">
+				<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+					<img src="images/23.png" alt="" class="">
+				</div>
+				<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+					
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
